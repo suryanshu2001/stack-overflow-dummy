@@ -1,22 +1,23 @@
 .outer-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content:space-between;
 	align-items: center;
 	height: 10vw;
 	width: 100vw;
 }
 .navbar {
-	background-color: rgba(255, 255, 255, 0.45);
-	-webkit-backdrop-filter: blur(8px);
+	background-color: rgb(255, 255, 255);
+	/* -webkit-backdrop-filter: blur(8px);
 	z-index: 1;
 	backdrop-filter: blur(8px);
-	position: absolute;
+	position: absolute; */
 	height: 10vw;
-	max-height: 120px;
+	max-height: 70px;
 	width: 100vw;
 	display: flex;
-	justify-content: center;
-	align-content: center;
+	align-items: center;
+    justify-content:space-between;
+    box-shadow: 0px 0px 34px 0px #d8d8d8;
 }
 .outer-container a {
 	color: #274c5b;
@@ -24,7 +25,7 @@
 }
 .content-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content:space-evenly;
 	align-items: center;
 	width: 80vw;
 }
@@ -33,8 +34,11 @@
 	align-items: center;
 	justify-content: center;
 	border-radius: 36px;
-	border: 1px solid #e0e0e0;
+	/* border: 1px solid #e0e0e0; */
+    background-color: #f4f6f8;
+    border-width: 0;
 	padding: 6px;
+    width: max-content;
 }
 .search-bar input {
 	height: 50px;
@@ -47,22 +51,35 @@
 .search-bar input:focus {
 	outline: none;
 }
-
-.circular-container {
-	display: inline-block;
-	object-fit: contain;
-	object-fit: cover;
-	text-align: center;
-	height: 50px;
-	width: 50px;
-	border: 2px solid #e0e0e0;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: linear-gradient(180deg, #ffd980 0%, #8c0710 100%);
+.input-div {
+    background-color: #f4f6f8;
+    border-radius: 6px;
+    width: 42vw;
+    height: 3.5vw;
+    max-height: 28px;
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    padding: 0.3vw;
+    padding-inline: 2vw;
 }
-.home-container {
-	font-weight: 600;
-	font-size: 1.5dvw;
+
+.header-title {
+	font-weight: 200;
+	font-size: clamp(8px, 1.6dvw, 16px);
+}
+.logo {
+    width: 16vw;
+    max-width: 180px;
+    margin-right: 1.5vw;
+    margin-left: 1.2vw;
+}
+.logo-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.search-icon{
+    width: 2.5vw;
+    max-width: 21px;
 }
