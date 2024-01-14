@@ -5,6 +5,7 @@
     height: 100vh;
     padding-top: 6vw;
     margin-right: 60px;
+    
   }
   
   .right-sidebar-container-1 {
@@ -46,9 +47,9 @@
   }
   .right-sidebar-container-list-sl-selected{
     margin-right: 8px;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
-    background-color: #ff5733;
+    background-color: #F48024;
     width: 34px;
     height: 34px;
     display: flex;

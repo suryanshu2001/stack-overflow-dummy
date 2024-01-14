@@ -60,18 +60,18 @@
 .input-div {
     background-color: #f4f6f8;
     border-radius: 6px;
-    width: 42vw;
+    width: 46vw;
     height: 3.5vw;
     max-height: 28px;
     display: flex;
-    justify-content:start;
+    justify-content:flex-start;
     align-items:center;
     padding: 0.3vw;
-    padding-inline: 2vw;
+    padding-inline: 1vw;
 }
 
 .header-title {
-	font-weight: 200;
+	font-weight: 600;
 	font-size: clamp(8px, 1.6dvw, 16px);
 }
 .logo {
