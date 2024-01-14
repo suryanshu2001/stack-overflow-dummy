@@ -7,17 +7,17 @@
 }
 .navbar {
 	background-color: rgb(255, 255, 255);
-	/* -webkit-backdrop-filter: blur(8px);
+	/* -webkit-backdrop-filter: blur(8px); */
 	z-index: 1;
-	backdrop-filter: blur(8px);
-	position: absolute; */
+	/* backdrop-filter: blur(8px); */
+	position: absolute;
 	height: 10vw;
 	max-height: 70px;
 	width: 100vw;
 	display: flex;
 	align-items: center;
     justify-content:space-between;
-    box-shadow: 0px 0px 34px 0px #d8d8d8;
+    box-shadow: 0px 12px 34px 10px #ededed;
 }
 .outer-container a {
 	color: #274c5b;

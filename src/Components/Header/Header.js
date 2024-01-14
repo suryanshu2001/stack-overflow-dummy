@@ -6,7 +6,7 @@ function Header() {
   return (
    <>
    <nav className="navbar navbar-expand-lg  navbar-expand-md navbar-light p-4">
-				{/* <div className="outer-container"> */}
+				
 					<div className="logo-container col-2">
 						<Link to="/">
 							
@@ -23,7 +23,7 @@ function Header() {
 						<div className="header-title">Product</div>
 						<div className="header-title">For teams</div>
 					</div>
-				{/* </div> */}
+				
 			</nav>
    </>
   )
