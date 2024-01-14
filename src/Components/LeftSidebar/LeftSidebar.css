@@ -1,8 +1,11 @@
 .left-sidebar-container{
 display: flex;
 flex-direction: column;
+height: 100vh;
+justify-content: space-between;
 font-size: 12px;
 font-weight: 600;
+padding-top: 34vh;
 }
 .content-container-left{
     display: flex;
@@ -57,4 +60,29 @@ gap: 2vw;
   background-color: #ff5733;
   margin-left: auto; 
   border-radius: 2px;
+  }
+  .auth-block-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+    margin-left: 1.2vw;
+  }
+  
+  .auth-block-item {
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    background-color: #ff5733;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .auth-block-item.selected {
+    background-color: white;
+    color: #ff5733;
+    border: 1px solid #ff5733;
   }

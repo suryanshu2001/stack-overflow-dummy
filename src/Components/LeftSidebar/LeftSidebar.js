@@ -4,13 +4,17 @@ import './LeftSidebar.css'
 function LeftSidebar() {
     const [expand,setExpand] = useState(true);
     const [selectedItem, setSelectedItem] = useState(null);
+    const [selectedItemAuth, setSelectedItemAuth] = useState(null);
+
+  const handleClickAuth = (item) => {
+    setSelectedItemAuth(item);
+  };
 
     const handleItemClick = (item) => {
         setSelectedItem(item);
       };
-      
+
   return (
-    <>
     <div className='left-sidebar-container'>
         <div className='content-container-left'>
         <span className='home-image-container'>
@@ -59,8 +63,22 @@ function LeftSidebar() {
             <span>Jobs</span>
         </span>
         </div>
+        <div className='auth-block-container'>
+        <span
+        className={`auth-block-item ${selectedItemAuth === 'Login' ? 'selected' : ''}`}
+        onClick={() => handleClickAuth('Login')}
+      >
+        Login
+      </span>
+      <span
+        className={`auth-block-item ${selectedItemAuth === 'SignUp' ? 'selected' : ''}`}
+        onClick={() => handleClickAuth('SignUp')}
+      >
+        Sign up
+      </span>
+        </div>
     </div>
-    </>
+    
   )
 }
 
