@@ -4,7 +4,7 @@ import './LeftSidebar.css'
 function LeftSidebar() {
     const [expand,setExpand] = useState(true);
     const [selectedItem, setSelectedItem] = useState(null);
-    const [selectedItemAuth, setSelectedItemAuth] = useState(null);
+    const [selectedItemAuth, setSelectedItemAuth] = useState('Login');
 
   const handleClickAuth = (item) => {
     setSelectedItemAuth(item);

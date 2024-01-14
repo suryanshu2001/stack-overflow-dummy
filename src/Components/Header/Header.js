@@ -17,7 +17,7 @@ function Header() {
 					<div className="content-container col-9">
 						<div className='input-div'>
                             <img className='search-icon' src={require('../../Assets/Images/searchicon.png') } alert='search button' />
-							<input type='text' className='search-bar' placeholder='Search'/>		
+							<input type='text' className='search-bar' placeholder='Search' />		
 						</div>
 						<div className="header-title">About</div>
 						<div className="header-title">Product</div>
