@@ -4,7 +4,11 @@ body {
 	font-family: "Poppins", cursive;
 	scrollbar-width: none;
 	-ms-overflow-style: none;
+	overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+	width: 0.5em;
+  }
 
 * {
 	margin: 0;

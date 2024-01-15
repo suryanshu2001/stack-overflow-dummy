@@ -1,12 +1,16 @@
 .left-sidebar-container{
 display: flex;
-width: 18vw;
+width: 25vw;
 flex-direction: column;
 height: 100vh;
 justify-content: space-between;
 font-size: 12px;
 font-weight: 600;
-padding-top: 34vh;
+padding-top: 15vh;
+overflow-y: auto;
+}
+.left-sidebar-container::-webkit-scrollbar {
+  width: 0.5em;
 }
 .content-container-left{
 display: flex;
@@ -14,19 +18,20 @@ flex-direction: column;
 height:fit-content;
 max-height: 300px;
 justify-content: space-between;
-margin-left: 4vw;
+margin-left: 1.8vw;
 }
 .home-image-container{
 display: flex;
-width: 30vw;
+width: 13vw;
 max-width: 280px;
 padding: 3px;
-padding-inline:clamp(8px, 1.5vw, 33px);
+padding-inline:clamp(8px, 1.0vw, 33px);
 padding-block:clamp(8px, 1.5vw, 33px);
 gap: 28px;
 cursor: pointer; 
 font-size: 1.0dvw;
 opacity: 0.9;
+
 }
 .home-image{
     width: 1.5vw;

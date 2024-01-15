@@ -3,9 +3,12 @@
     flex-direction: column;
     padding: 10px;
     height: 100vh;
-    padding-top: 6vw;
+    padding-top: 3vw;
     margin-right: 60px;
-    
+    overflow-y: auto;
+  }
+  .right-sidebar-container::-webkit-scrollbar {
+    width: 0.5em;
   }
   
   .right-sidebar-container-1 {
