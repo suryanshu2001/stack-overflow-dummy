@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import './LeftSidebar.css'
 
 function LeftSidebar() {
-    const [expand,setExpand] = useState(true);
-    const [selectedItem, setSelectedItem] = useState(null);
+    const [expand,setExpand] = useState(false);
+    const [selectedItem, setSelectedItem] = useState('Questions');
     const [selectedItemAuth, setSelectedItemAuth] = useState('Login');
 
   const handleClickAuth = (item) => {
